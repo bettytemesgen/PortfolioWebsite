@@ -17,6 +17,7 @@
   place-items: center;
 }
 .about__me-image {
+  margin-top: 5rem;
   border-radius: 2rem;
   overflow: hidden;
   transform: rotate(10deg);

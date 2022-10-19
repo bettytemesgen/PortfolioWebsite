@@ -1,6 +1,6 @@
 import React from "react";
 import "./testimonials.css";
-import ME from "../../asset/code1.jpg";
+import ME from "../../asset/Testtwo.png";
 import { Pagination } from "swiper";
 
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -9,7 +9,7 @@ import "swiper/swiper.min.css";
 const data = [
   {
     avater: ME,
-    name: "Mr Isaac ",
+    name: "Bitapps ",
     review:
       "Thank you  for your hard work for everything I wished for.Our website is running outstanding without any problem of loading.I'm very happy with my exceptional website in its design and content into it. ",
   },
@@ -21,7 +21,7 @@ const data = [
   },
   {
     avater: ME,
-    name: "Mr Yarde",
+    name: "Mr Isaac",
     review:
       "It has been a pleasure to work with you, to create a website for our Company which is working well. They met tight timetables and were always responsive to ideas and requests.",
   },

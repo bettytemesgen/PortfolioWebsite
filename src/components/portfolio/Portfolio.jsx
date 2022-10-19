@@ -1,7 +1,7 @@
 import React from "react";
 import "./portfolio.css";
 import ME from "../../asset/stpeter.png";
-import WEB from "../../asset/logo.png";
+import WEB from "../../asset/bk1.jpg";
 
 import WEBTW0 from "../../asset/Todolist.jpg";
 
@@ -27,11 +27,11 @@ export const Portfolio = () => {
               Github
             </a>
             <a
-              href="https://www.linkedin.com/in/bethlehem-temesgen-a25793233"
+              href="https://kiduspetroshopital.com/"
               target="_blank"
               className="btn btn-primary"
             >
-              Linkedin
+              View
             </a>
           </div>
         </article>
@@ -50,11 +50,11 @@ export const Portfolio = () => {
               Github
             </a>
             <a
-              href="https://www.linkedin.com/in/bethlehem-temesgen-a25793233"
+              href="https://zelmycoffee.com/"
               target="_blank"
               className="btn btn-primary"
             >
-              Linkedin
+              View
             </a>
           </div>
         </article>
@@ -73,11 +73,11 @@ export const Portfolio = () => {
               Github
             </a>
             <a
-              href="https://www.linkedin.com/in/bethlehem-temesgen-a25793233"
+              href="https://bettytemesgen.github.io/ToDo/"
               target="_blank"
               className="btn btn-primary"
             >
-              Linkedin
+              View
             </a>
           </div>
         </article>
@@ -97,11 +97,11 @@ export const Portfolio = () => {
               Github
             </a>
             <a
-              href="https://www.linkedin.com/in/bethlehem-temesgen-a25793233"
+              href="https://bitappstech.com/travle_with_abrish/"
               target="_blank"
               className="btn btn-primary"
             >
-              Linkedin
+              View
             </a>
           </div>
         </article>

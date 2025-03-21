@@ -1,6 +1,6 @@
 import React from "react";
 import "./about.css";
-import ME from "../../asset/portfiolo.jpg";
+import ME from "../../asset/pro-img.png";
 
 export const About = () => {
   return (
@@ -17,7 +17,7 @@ export const About = () => {
           <div className="about__cards">
             <article className="about__card">
               <h5>Experience</h5>
-              <small>1 Years Working</small>
+              <small>3+ Years Working</small>
             </article>
 
             <article className="about__card">
@@ -27,20 +27,20 @@ export const About = () => {
 
             <article className="about__card">
               <h5>Project</h5>
-              <small>10+ Project</small>
+              <small>20+ Project</small>
             </article>
           </div>
           <p>
-            My Name is Bethlehem Temesgen I am from Ethiopia I have a BSC degree
-            in computer science I have been working in bitapps technology
-            company for almost one year. through out my stay I have participated
-            in making different websites with the following technologies HTML,
-            CSS, Bootstrap JavaScript ,jQuery, GitHub , React , WordPress ,PHP
-            Laravel , MySQL, SQL . I would like to be part of this great
-            company. I'm dedicated to work under pressure. and I'm eager to be
-            challenged in order to grow and further improve my skills. My
-            greatest passion is in life is using my technical know-how to
-            benefit other people and organization.
+            I am a passionate full-stack developer with over three years of
+            experience in building scalable and user-friendly web applications.
+            Proficient in modern technologies like Next.js, React, .NET, and
+            WordPress, I specialize in developing high-performance websites,
+            e-commerce platforms, and learning management systems. I have
+            successfully contributed to multiple projects, including Palm Jobs,
+            BitApps E-learning, and Yenetena. My expertise lies in frontend and
+            backend development, API integration, and payment gateways like
+            SantimPay. I am always eager to learn and innovate in the tech
+            industry
           </p>
           <a href="#contact" className="btn btn-primary">
             Let's Talk

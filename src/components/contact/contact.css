@@ -57,7 +57,10 @@ h5 {
     gap: 2rem;
   }
   h5 {
-    font-size: 1.2rem;
+    font-size: 13px;
+  }
+  section > h2{
+  font-size: 11px;
   }
 }
 /*==============MEDIA QUERIES(mobile)===========*/

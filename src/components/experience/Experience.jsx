@@ -33,6 +33,7 @@ export default function Experience() {
                 <h4>JavaScript</h4>
                 <small className="text-light">Experienced</small>
               </div>
+              
             </article>
             <article className="experience__details">
               <BsFillPatchCheckFill className="experience__details-icons" />
@@ -54,7 +55,7 @@ export default function Experience() {
               <BsFillPatchCheckFill className="experience__details-icons" />
 
               <div>
-                <h4>React</h4>
+                <h4>ReactJs</h4>
                 <small className="text-light">Experienced</small>
               </div>
             </article>
@@ -62,7 +63,7 @@ export default function Experience() {
               <BsFillPatchCheckFill className="experience__details-icons" />
 
               <div>
-                <h4>jquery</h4>
+                <h4>Nextjs</h4>
                 <small className="text-light">Intermediate</small>
               </div>
             </article>
@@ -74,26 +75,12 @@ export default function Experience() {
                 <small className="text-light">Intermediate</small>
               </div>
             </article>
-            <article className="experience__details">
-              <BsFillPatchCheckFill className="experience__details-icons" />
-
-              <div>
-                <h4>WordPress</h4>
-                <small className="text-light">Experienced</small>
-              </div>
-            </article>
-            <article className="experience__details">
-              <BsFillPatchCheckFill className="experience__details-icons" />
-
-              <div>
-                <h4>Shopfiy</h4>
-                <small className="text-light">Experienced</small>
-              </div>
-            </article>
+           
+           
           </div>
         </div>
 
-        {/*end of frontend*/}
+        {/*end of frontend */}
 
         <div className="experience__backend">
           <h3>Backend Development</h3>
@@ -110,6 +97,14 @@ export default function Experience() {
               <BsFillPatchCheckFill className="experience__details-icons" />
 
               <div>
+                <h4>Nextjs</h4>
+                <small className="text-light">Experienced</small>
+              </div>
+            </article>
+            <article className="experience__details">
+              <BsFillPatchCheckFill className="experience__details-icons" />
+
+              <div>
                 <h4>PHP</h4>
                 <small className="text-light">Experienced</small>
               </div>
@@ -118,7 +113,7 @@ export default function Experience() {
               <BsFillPatchCheckFill className="experience__details-icons" />
 
               <div>
-                <h4>MYSQL</h4>
+                <h4>MongoDb</h4>
                 <small className="text-light">Experienced</small>
               </div>
             </article>
@@ -126,7 +121,7 @@ export default function Experience() {
               <BsFillPatchCheckFill className="experience__details-icons" />
 
               <div>
-                <h4>SQL</h4>
+                <h4>Prisam</h4>
                 <small className="text-light">Experienced</small>
               </div>
             </article>
@@ -148,7 +143,71 @@ export default function Experience() {
             </article>
           </div>
         </div>
+
+        <div className="experience__backend">
+          <h3>CMS & E-Commerce </h3>
+          <div className="experience__content">
+            <article className="experience__details">
+              <BsFillPatchCheckFill className="experience__details-icons" />
+
+              <div>
+                <h4>WordPress </h4>
+                <small className="text-light">Experienced</small>
+              </div>
+            </article>
+            <article className="experience__details">
+              <BsFillPatchCheckFill className="experience__details-icons" />
+
+              <div>
+                <h4>Shopify </h4>
+                <small className="text-light">Experienced</small>
+              </div>
+            </article>
+            <article className="experience__details">
+              <BsFillPatchCheckFill className="experience__details-icons" />
+
+              <div>
+                <h4>WooCommerce </h4>
+                <small className="text-light">Experienced</small>
+              </div>
+            </article>
+          </div>
+        </div>
+        
+        <div className="experience__backend">
+          <h3> Project Management & Collaboration
+          </h3>
+          <div className="experience__content">
+            <article className="experience__details">
+              <BsFillPatchCheckFill className="experience__details-icons" />
+
+              <div>
+                <h4>Git & Version Control </h4>
+                <small className="text-light">Experienced</small>
+              </div>
+            </article>
+            <article className="experience__details">
+              <BsFillPatchCheckFill className="experience__details-icons" />
+
+              <div>
+              <h4> Jira, Trello, Notion </h4> 
+             <small className="text-light">Experienced</small>
+              </div>
+            </article>
+            <article className="experience__details">
+              <BsFillPatchCheckFill className="experience__details-icons" />
+
+              <div>
+              <h4> Google Analytics & SEO   </h4> 
+             <small className="text-light">Experienced</small>
+              </div>
+            </article>
+         
+          </div>
+        </div>
+
       </div>
+
     </section>
   );
 }

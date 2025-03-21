@@ -1,11 +1,11 @@
 import React from "react";
 import "./portfolio.css";
-import ME from "../../asset/stpeter.png";
-import WEB from "../../asset/bk1.jpg";
+import yenetena from "../../asset/yenetena.jpg";
+import markab from "../../asset/markab.jpg";
 
-import WEBTW0 from "../../asset/Todolist.jpg";
+import Bitapps from "../../asset/bitapps.jpg";
 
-import POGRAM from "../../asset/log.png";
+import POGRAM from "../../asset/tewos.jpg";
 
 export const Portfolio = () => {
   return (
@@ -15,9 +15,9 @@ export const Portfolio = () => {
       <div className="container portfolio__container">
         <article className="portfolio__item">
           <div className="portfolio__item-image">
-            <img src={ME} alt="one" />
+            <img src={yenetena} alt="one" />
           </div>
-          <h3>Hospital Website</h3>
+          <h3>YeneTena</h3>
           <div className="portfolio__item-cta ">
             <a
               href="https://github.com/bettytemesgen"
@@ -27,7 +27,7 @@ export const Portfolio = () => {
               Github
             </a>
             <a
-              href="https://kiduspetroshopital.com/"
+              href="https://www.yenetena.com//"
               target="_blank"
               className="btn btn-primary"
             >
@@ -38,9 +38,9 @@ export const Portfolio = () => {
         {/*====================two========================== */}
         <article className="portfolio__item">
           <div className="portfolio__item-image">
-            <img src={WEB} alt="web desgin" />
+            <img src={markab} alt="web desgin" />
           </div>
-          <h3>Coffee Website</h3>
+          <h3>Markab Solutions</h3>
           <div className="portfolio__item-cta ">
             <a
               href="https://github.com/bettytemesgen"
@@ -50,7 +50,7 @@ export const Portfolio = () => {
               Github
             </a>
             <a
-              href="https://zelmycoffee.com/"
+              href="https://markabsolutionseth.netlify.app/"
               target="_blank"
               className="btn btn-primary"
             >
@@ -61,9 +61,9 @@ export const Portfolio = () => {
         {/*====================three========================== */}
         <article className="portfolio__item">
           <div className="portfolio__item-image">
-            <img src={WEBTW0} alt="web desgin" />
+            <img src={Bitapps} alt="web desgin" />
           </div>
-          <h3>TodoList in React </h3>
+          <h3>Bitapps Learning Managment System(LMS) </h3>
           <div className="portfolio__item-cta ">
             <a
               href="https://github.com/bettytemesgen"
@@ -73,7 +73,7 @@ export const Portfolio = () => {
               Github
             </a>
             <a
-              href="https://bettytemesgen.github.io/ToDo/"
+              href="https://elearning.bitappstech.com/"
               target="_blank"
               className="btn btn-primary"
             >
@@ -87,7 +87,7 @@ export const Portfolio = () => {
           <div className="portfolio__item-image">
             <img src={POGRAM} alt="web desgin" />
           </div>
-          <h3>Travel Website</h3>
+          <h3>Tewos Technology Company</h3>
           <div className="portfolio__item-cta ">
             <a
               href="https://github.com/bettytemesgen"
@@ -97,7 +97,7 @@ export const Portfolio = () => {
               Github
             </a>
             <a
-              href="https://bitappstech.com/travle_with_abrish/"
+              href="https://tewostech.com/"
               target="_blank"
               className="btn btn-primary"
             >

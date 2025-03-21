@@ -1,5 +1,5 @@
 header {
-  height: 100vh;
+  /* height: 100vh; */
   padding-top: 7rem;
   overflow: hidden;
 }
@@ -23,7 +23,7 @@ header {
   gap: 0.8rem;
   position: absolute;
   left: 0;
-  bottom: 3rem;
+  bottom: 0rem;
 }
 .header__socials::after {
   content: "";
@@ -62,7 +62,7 @@ header {
     height: 97%;
   }
   header {
-    height: 44vh;
+    height: 18vh;
   }
   .about__me-image {
     margin-top: 19%;

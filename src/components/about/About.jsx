@@ -25,6 +25,8 @@ export const About = () => {
               <small>10+ company Project</small>
             </article>
 
+
+
             <article className="about__card">
               <h5>Project</h5>
               <small>20+ Project</small>
@@ -40,7 +42,9 @@ export const About = () => {
             BitApps E-learning, and Yenetena. My expertise lies in frontend and
             backend development, API integration, and payment gateways like
             SantimPay. I am always eager to learn and innovate in the tech
-            industry
+            industry.
+
+      
           </p>
           <a href="#contact" className="btn btn-primary">
             Let's Talk
